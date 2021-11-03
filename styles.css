@@ -1,12 +1,40 @@
 body {
-    background: green;
-    font-family:Arial, Helvetica, sans-serif
+    background: B0C4DE;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.assignment {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: 4px dashed #FFFFE0;
+}
+
+.assignment img {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.assginment img:hover {
+    border: 4px dashed #000000;
 }
 
 h1 {
-    color:darkblue
+    color:darkblue;
+    text-align:center;
 }
 
 h2{
-    color:darkblue
+    color:darkblue;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:#2082AA;
+}
+
+a:hover {
+    color: #FFFFFF;
 }
